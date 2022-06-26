@@ -1,0 +1,32 @@
+import React from 'react';
+class Home extends React.Component{
+    render(){
+        return(
+            <div>
+                <div>
+  <h1 style={{"color":"white","background-color":"black","font-size":"40px"}}>TIPTOP TRENDZ</h1>
+  <meta charSet="utf-g" />
+  <style dangerouslySetInnerHTML={{__html: "\n  body{\n  margin: 0;\n  padding: 0;\n  font-family: sans-serif;\n  background-image: url(\"https://images.unsplash.com/photo-1499088513455-78ed88b7a5b4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=671&q=80\");\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n  background-size: 100% 100%;\n\n}\n.box{\n  width: 500px;\n  padding: 60px;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%,-50%);\n  background: rgba(0, 0, 0, 0.7);\n  text-align: center;\n    border-radius: 40px\n}\n.box h1{\n  color: white;\n\n  font-weight: 600;\n\n}\n.box input[type =\"submit\"]{\n  border: 0;\n  background: none;\n  display: block;\n  margin: 20px auto;\n  text-align: center;\n  border: 2px solid #B0BF1A; \n  padding: 14px 40px;\n  outline: none;\n  color: white;\n  border-radius: 20px;\n  transition: 0.25s;\n  cursor: pointer;\n}\n.buttons {\n  display: flex;\n  justify-content: space-around;\n  flex-wrap: wrap;\n  width: 500px;\n  height: 80px;\n}\n\n.btn {\n  font-family: 'Noto Sans', sans-serif;\n  font-size: 20px;\n  cursor: pointer;\n  box-shadow: -1px 3px 3px 0 rgba(80, 80, 80, .2);\n  width: 400px;\n  height: 70px;\n  padding: 30px;\n  border: none;\n  border-radius: 30px;\n  margin: 0 10px 40px;\n  color: #fff;\n  font-weight: bold;\n  flex: 0 0 auto;\n}\n\n.btn-1 {\n  background: #B0BF1A; \n  transition: all 0.25s ease-out;\n}\n\n.btn-1:hover {\n  position: relative;\n  top: -3px;\n  box-shadow: -6px 14px 12px 2px rgba(90, 90, 90, .15);\n}\n\n\n  " }} />
+  <from className="box" action="index.html" method="post">
+    <h1>Select Your Gender</h1>
+    <div className="buttons">
+      <button className="btn btn-1">MENS PERSONALIZED WEAR</button>
+    </div>
+    <div className="buttons">
+      <button className="btn btn-1">WOMENS PERSONALIZED WEAR</button>
+    </div>
+  </from>
+</div>
+ 
+         
+
+
+
+        
+</div>
+            
+ );
+        
+}
+}
+export default Home;

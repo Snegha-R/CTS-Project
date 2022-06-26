@@ -1,0 +1,104 @@
+import React from 'react';
+class Home extends React.Component{
+    render(){
+        return(
+            <div>
+               <div>
+  <h1 style={{"color":"white","background-color":"black","font-size":"40px"}}>TIPTOP TRENDZ</h1>
+  <meta charSet="UTF-8" />
+  <title>Registration Form</title>
+  <style dangerouslySetInnerHTML={{__html: "\n    @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Ubuntu:wght@300&display=swap');\n \n*{\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    font-family: 'Ubuntu', sans-serif;\n}\nbody{\n    margin: 0;\n  padding: 0;\n  font-family: sans-serif;\n  background-image: url(\"https://images2.alphacoders.com/102/1020682.jpg\");\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n  background-size: 100% 100%;\n \n}\n \n.wrapper{\n    background: #000000be;\n    max-width: 400px;\n    margin: 80px auto;\n    height: auto;\n    padding: 35px;\n    padding-top: 70px;\n    border-radius: 7px;\n    position: relative;\n}\n.wrapper .title{\n  font-size: 35px;\n  font-weight: 700;\n  margin-bottom: 25px;\n  color: white;\n  text-transform: uppercase;\n  text-align: center;\n}\n.wrapper .form{\n  width:100%;\n}\n.weapper .form .input_field{\n  margin-bottom: 15px;\n  display: flex;\n  align-items: center;\n}\n.wrapper .form .input_field label{\n  width :200px;\n  color: #fffbfb;\n  margin-right: 10px;\n  font-size: 14px;\n}\n \n.wrapper .form .input_field .input,.wrapper .form .input_field .textarea{\n  width:100%;\n  outline: none;\n  border: 1px solid #ffffff;\n  font-size: 15px;\n  padding: 8px 10px;\n  border-radius: 3px;\n  trasition: all 0.3s ease;\n}\n.wrapper .form .input_field .textarea{\n  resize: none;\n  height: 125px;\n}\n.wrapper .form .input_field .custom_select{\n  position: relative;\n  width: 100%;\n  height:37px;\n}\n.wrapper .form .input_field .custom_select Select{\n  -webkit-appearance: none;\n  appearance: none;\n  border: 1px solid #ffffff;\n  width: 100%;\n  height: 100%;\n  padding: 8px 20px;\n  border-radius: 3px;\n  outline: none;\n}\n.button {\n  background-color: rgb(182, 240, 22); /* Green */\n  border: none;\n  border-radius: 6%;\n  color: black;\n  padding: 15px 32px;\n  text-align: center;\n  text-decoration: none;\n  display: inline-block;\n  font-size: 20px;\n  margin: 8px 4px;\n  cursor: pointer;\n  -webkit-transition-duration: 0.4s; /* Safari */\n  transition-duration: 0.4s;\n}\n \n.button1 {\n  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);\n}\n" }} />
+  <div className="wrapper">
+    <div className="title">
+      WOMENS WEARING
+    </div>
+    <div className="input_field">
+      <label style={{"color":"white"}}>Style</label>
+      <div className="custom_select">
+        <select>
+          <option values>Select</option>
+          <option values="male">Top</option>
+          <option values="male">Kurthi</option>
+          <option values="male">Lehanga</option>
+          <option values="male">Patiyala</option>
+          <option values="male">Jean Pants</option>
+        </select>
+      </div>
+    </div>
+    <div className="input_field">
+      <label style={{"color":"white"}}>Fabric</label>
+      <div className="custom_select">
+        <select>
+          <option values>Select</option>
+          <option values="female">Cotton</option>
+          <option values="female">Rayon</option>
+          <option values="female">Synthetic</option>
+          <option values="female">Silk</option>
+          <option values="female">Jean</option>
+        </select>
+      </div>
+    </div>
+    <div className="input_field">
+      <label style={{"color":"white"}}>Size</label>
+      <div className="custom_select">
+        <select>
+          <option values>Select</option>
+          <option values="female">S</option>
+          <option values="female">M</option>
+          <option values="female">L</option>
+          <option values="female">XL</option>
+          <option values="female">2XL</option>
+          <option values="female">3XL</option>
+          <option values="female">4XL</option>
+          <option values="female">5XL</option>
+          <option values="female">6XL</option>
+        </select>
+      </div>
+    </div>
+    <div className="form">
+      <div className="input_field">
+        <label>Color</label>
+        <input type="text" className="input" />
+      </div>
+    </div>
+    <div className="form">
+      <div className="input_field">
+        <label>Specification</label>
+        <textarea className="textarea" defaultValue={""} />
+      </div>
+      <div className="form">
+        <div className="input_field">
+          <label>Min to Max price</label>
+          <input type="text" className="input" />
+        </div>
+      </div>
+      <div className="input_field term">
+        <label className="check">
+          <input type="checkbox" />
+          <span className="checkmark" />
+        </label>
+        <p style={{"color":"white"}}>Quality may vary depends on price</p>
+      </div>
+      <div className="input_field term">
+        <label className="check">
+          <input type="checkbox" />
+          <span className="checkmark" />
+        </label>
+        <p style={{"color":"white"}}>No return policy for customized product</p>
+      </div>
+      <button className="button button1"><b>Confirm</b></button>
+    </div>
+  </div></div>
+ 
+         
+
+
+
+        
+</div>
+            
+ );
+        
+}
+}
+export default Home;

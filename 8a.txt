@@ -1,0 +1,183 @@
+import React from 'react';
+class Home extends React.Component{
+    render(){
+        return(
+            <div>
+                <div>
+  <title> Product Selection</title>
+  <h1 style={{"color":"white","background-color":"black","font-size":"30px"}}>TIPTOP TRENDZ</h1>
+  <meta name="viewport" content="width=device-width, initial-scale=0.5" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <li style={{"float":"right"}}><a href="#cart">Cart <i className="fa fa-shopping-cart" /></a></li>
+  <header>
+    <h2><center><b>WOMENS WEAR</b><center /></center></h2>
+  </header>
+  <style dangerouslySetInnerHTML={{__html: "\nh1 {text-align: left;\n    font-size: 30px;\n    color: white;\n    background-color: Black;\n  }\n h2{\n  text-align: center;\n    font-size: 30px;\n    font-family: Perpetua;\n    padding: 95px;\n    color: white;\n}\n\n" }} />
+  {/*Veg Begins*/}
+  <div className="deals-container" id="vegetables">
+    <div className="parallax">
+      <div className="title" />
+    </div>
+    <div className="items">
+      <div className="images">
+        <img src="https://cdn.shopify.com/s/files/1/2542/7564/products/9_3b1013c9-aecf-4d17-98da-6446d5a74860_400x.png?v=1617276932" />
+      </div>
+      <div className="description">
+        CURRANT RED POLKA COTTON LONG DRESS WITH WHITE SPOTS<br />
+        <div className="item-select">
+          Price: ₹699
+        </div>
+        <label> SIZE: </label>
+        <select className="item-select">
+          <option>S</option>
+          <option>M</option>
+          <option>L</option>
+          <option>XL</option>
+        </select> <br />
+        <br />
+        <button className="buynow-btn">Buy Now</button>
+        <button className="cart-btn">Add to Cart</button>
+      </div>
+    </div>
+    <div className="items">
+      <div className="images">
+        <img src="https://n1.sdlcdn.com/imgs/a/o/b/Beebay-Peach-Color-Net-Tops-SDL271165376-2-a3cad.jpg" className="items-image-size" />
+      </div>
+      <div className="description">
+        FLATTERING PEACH SMOCKED COTTON HANDPAINTED DRESS<br />
+        <div className="item-select">
+          Price: ₹999
+        </div>
+        <label> SIZE: </label>
+        <select className="item-select">
+          <option>S</option>
+          <option>M</option>
+          <option>L</option>
+          <option>XL</option>
+        </select> <br />
+        <br />
+        <button className="buynow-btn">Buy Now</button>
+        <button className="cart-btn">Add to Cart</button>
+      </div>
+    </div>
+    <div className="items">
+      <div className="images">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREHke8zjs7aJN3HJMaPIhbatkHrvCFsM4lbg&usqp=CAU" className="items-image-size" />
+      </div>
+      <div className="description">
+        YELLOW GOLDFINCH HANDBLOCK SHARARA SET<br />
+        <div className="item-select">
+          Price: ₹1499
+        </div>
+        <label> SIZE: </label>
+        <select className="item-select">
+          <option>S</option>
+          <option>M</option>
+          <option>L</option>
+          <option>XL</option>
+        </select> <br />
+        <br />
+        <button className="buynow-btn">Buy Now</button>
+        <button className="cart-btn">Add to Cart</button>
+      </div>
+    </div>
+    <div className="items">
+      <div className="images">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR2l7uzwy0rdncAk5LRYZFBNKhq8I3N9-3Rg&usqp=CAU" className="items-image-size" />
+      </div>
+      <div className="description">
+        BLACK ROSE HANDPAINTED PURE ORGANZA LEHENGA SET<br />
+        <div className="item-select">
+          Price: ₹899
+        </div>
+        <label> SIZE: </label>
+        <select className="item-select">
+          <option>S</option>
+          <option>M</option>
+          <option>L</option>
+          <option>XL</option>
+        </select> <br />
+        <br />
+        <button className="buynow-btn">Buy Now</button>
+        <button className="cart-btn">Add to Cart</button>
+      </div>
+    </div>
+    <div className="items">
+      <div className="images">
+        <img src="https://assets.ajio.com/medias/sys_master/root/20210403/PmPT/606883957cdb8c1f14772150/-473Wx593H-461483193-blue-MODEL.jpg" className="items-image-size" />
+      </div>
+      <div className="description">
+        OLIVIA NIGHT SUIT WITH FLORAL PRINTED FLOWERS (BLUE)<br />
+        <div className="item-select">
+          Price: ₹1999
+        </div>
+        <label> SIZE: </label>
+        <select className="item-select">
+          <option>S</option>
+          <option>M</option>
+          <option>L</option>
+          <option>XL</option>
+        </select> <br />
+        <br />
+        <button className="buynow-btn">Buy Now</button>
+        <button className="cart-btn">Add to Cart</button>
+      </div>
+    </div>
+    <div className="items">
+      <div className="images">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqwXbiSJJDxoNa8xke11-hQLkq7PSmzGpGbw&usqp=CAU" className="items-image-size" />
+      </div>
+      <div className="description">
+        FULL SLEEVE PRINTED SCARLETT NIGHT SUIT (PINK)<br />
+        <div className="item-select">
+          Price: 1379
+        </div>
+        <label> SIZE: </label>
+        <select className="item-select">
+          <option>S</option>
+          <option>M</option>
+          <option>L</option>
+          <option>XL</option>
+        </select> <br />
+        <br />
+        <button className="buynow-btn">Buy Now</button>
+        <button className="cart-btn">Add to Cart</button>
+      </div>
+    </div>
+    <div className="items">
+      <div className="images">
+        <img src="https://cdn.shopify.com/s/files/1/2542/7564/products/1_18adc7f1-303b-402a-afaf-d6fb0a0bc92b_800x.png?v=1619109677" />
+      </div>
+      <div className="description">
+        TURQUISH BLUE EMBROIDERED SHARARA SET<br />
+        <div className="item-select">
+          Price: 799
+        </div>
+        <label> SIZE: </label>
+        <select className="item-select">
+          <option>S</option>
+          <option>M</option>
+          <option>L</option>
+          <option>XL</option>
+        </select> <br />
+        <br />
+        <button className="buynow-btn">Buy Now</button>
+        <button className="cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  <style dangerouslySetInnerHTML={{__html: "\nbody{\n\nmargin: 0;\npadding: 0;\nfont-family: Perpetua;\nbackground: white;\nbackground-image: url(\"https://images.unsplash.com/photo-1533891244820-1d2dbcf93f56?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YnJpY2slMjB3YWxsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80\");\nbackground-repeat: no-repeat;\nbackground-attachment: fixed;\nbackground-size: 100% 100%;\n}\n.items{\nposition: relative;\ntop: 50%;\nleft: 50%;\ntransform: translate(-50%, -50%);\nwidth: 700px;\npadding: 10px;\nbox-sizing: border-box;\nbackground: #000000c5;\nborder-radius: 4px;\nbox-shadow: 0 5px 15px rgba(0,0,0,.5);\ndisplay: flex;\n}\n.items .images{\nwidth: 150px;\nflex: 0 0 150px;\nborder-radius: 4px;\n }\n \n.items .images img\n{\nmax-width: 100%;\nborder-radius: 5px;\n}\n.items .images img:hover{\ntransform: scale(2,2);\ntransition: .3s transform;\n}\n.items .description\n{\npadding-left: 0;\n}\n.items .description b\n{\nmargin: 0;\npadding-left:50px;\ncolor: white;\nfont-size: 35px;\n}\n\n.items .description \n{\nmargin: 0;\npadding: 6px 2px 0;\ntext-align: center;\nfont-family: Perpetua;\nfont-size: 20px;\ncolor: white;\n}\n\n  .buynow-btn, .cart-btn\n  {\n   background-color: #bef508; /* Green */\n  border: none;\n  color: Black;\n  padding: 10px 26px;\n  text-align: center;\n  text-decoration: none;\n  display: inline-block;\n  font-size: 16px;\n  margin: 4px 2px;\n  cursor: pointer;\n  -webkit-transition-duration: 0.4s; /* Safari */\n  transition-duration: 0.4s;\n  }\n\n}\n\n" }} />
+  {/*Veg Ends*/}
+</div>
+         
+
+
+
+        
+</div>
+            
+ );
+        
+}
+}
+export default Home;

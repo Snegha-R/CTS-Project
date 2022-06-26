@@ -1,0 +1,74 @@
+import React from 'react';
+class Home extends React.Component{
+    render(){
+        return(
+            <div>
+               <div>
+  <h1 style={{"color":"white","background-color":"black","font-size":"40px"}}>TIPTOP TRENDZ</h1>
+  <meta charSet="utf-g" />
+  <title>Payment Checkout Form</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" />
+  <style dangerouslySetInnerHTML={{__html: "\n      @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Ubuntu:wght@300&display=swap');\n \n*{\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    font-family: 'Ubuntu', sans-serif;\n}\nbody{\n    margin: 0;\n  padding: 0;\n  font-family: sans-serif;\n  background-image: url(\"https://wallpapercave.com/wp/wp5670175.jpg\");\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n  background-size: 100% 100%;\n \n}\n.payment{\n    background: #978c8c79;\n    max-width: 360px;\n    margin: 80px auto;\n    height: auto;\n    padding: 35px;\n    padding-top: 70px;\n    border-radius: 5px;\n    position: relative;\n}\n.payment h1{\n    text-align: center;\n    letter-spacing: 2px;\n    margin-bottom: 40px;\n    color: black;\n}\n.form .label{\n    display: block;\n    color: black;\n    margin-bottom: 6px;\n \n}\n.form .input{\n    padding: 13px 0 13px 25px;\n    width: 100%;\n    text-align: center;\n    border: 2px solid #dddddd;\n    border-radius: 5px;\n    letter-spacing: 1px;\n    word-wrap: 3px;\n    outline: none;\n    font-size: 16px;\n    color: #555555;\n}\n.card-grp{\n    display: flex;\n    justify-content: space-between;\n}\n.card-item{\n    width: 48%;\n}\n.space{\n    margin-bottom: 20px;\n}\n.icon-relative{\n    position: relative;\n    \n}\n.icon-relative .fas,\n.icon-relative .far{\n  position: absolute;\n  bottom: 12px;\n  left: 15px;\n  font-size: 20px;\n  color: #555555;\n}\n.button {\n  background-color: rgb(41, 123, 179); /* Green */\n  border: none;\n  border-radius: 6%;\n  color: white;\n  padding: 15px 32px;\n  text-align: center;\n  text-decoration: none;\n  display: inline-block;\n  font-size: 20px;\n  margin: 8px 4px;\n  cursor: pointer;\n  -webkit-transition-duration: 0.4s; /* Safari */\n  transition-duration: 0.4s;\n}\n \n.button1 {\n  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);\n}\n.payment-logo{\n  position: absolute;\n  top: -50px;\n  left :50%;\n  transform: translateX(-50%);\n  width: 100px;\n  height: 100px;\n  background: #8d858579;\n  border-radius: 50%;\n  box-shadow: 0 0 5px rgba(0,0,0,0.2);\n  text-align:  center; \n  line-height: 100px;\n \n}\n.payment-logo:before{\n  content: \"\";\n  position: absolute;\n  top: 5px;\n  left: 5px;\n  width: 90px;\n  height: 90px;\n  background: #1e85dada;\n  border-radius: 50%;\n}\n.payment-logo p{\n  color: white;\n  position: relative;\n  font-family: 'Baloo 2', cursive;\n  font-size: 58px;\n}\n\n\n\n      " }} />
+  <div className="wrapper">
+    <div className="payment">
+      <div className="payment-logo">
+        <p>P</p>
+      </div>
+      <h1>Payment Gateway</h1>
+      <div className="form">
+        <div className="card space icon-relative">
+          <label className="label">Card holder:</label>
+          <input type="text" className="input" name="card_holder" placeholder="Card holder Name" />
+          <i className="fas fa-user" />
+        </div>
+        <div className="card space icon-relative">
+          <label className="label">Card number:</label>
+          <input type="text" className="input" name="card_number" placeholder="Card Number" />
+          <i className="far fa-credit-card" />
+        </div>
+        <div className="card-grp space">
+          <div className="card-item  icon-relative">
+            <label className="label">Expiry date:</label>
+            <input type="text" className="input" name="expiry_date" placeholder="00 / 00" />
+            <i className="far fa-calendar-alt" />
+          </div>
+          <div className="card-item  icon-relative">
+            <label className="label">CVC:</label>
+            <input type="text" className="input" name="CVC" placeholder= "{000}" />
+            <i className="fas fa-lock" />
+          </div>
+        </div>
+        <button className="button button1"><b>Proceed to Pay</b></button>
+      </div>
+    </div>
+  </div>
+</div>      
+
+
+
+         
+
+
+         
+         
+
+ 
+
+
+
+
+
+
+
+
+              
+              
+            
+            
+        </div>
+
+        );
+        
+    }
+}
+export default Home;

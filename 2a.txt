@@ -1,0 +1,28 @@
+import React from 'react';
+class Home extends React.Component{
+    render(){
+        return(
+            <div>
+   
+   <div>
+  <h1 style={{"color":"white","background-color":"black","font-size":"40px"}}>TIPTOP TRENDZ</h1>
+  <meta charSet="utf-g" />
+  <style dangerouslySetInnerHTML={{__html: "\n  body{\n  margin: 0;\n  padding: 0;\n  font-family: sans-serif;\n  background-image: url(\"https://wallpapercave.com/wp/wp5670175.jpg\");\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n  background-size: 100% 100%;\n\n}\n.box{\n  width: 300px;\n  padding: 40px;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%,-50%);\n  background: #191919;\n  text-align: center;\n}\n.box h1{\n  color: white;\n  text-transform: uppercase;\n  font-weight: 500;\n\n}\n.box input[type = \"text\"],.box input[type = \"password\"]{\n  border: 0;\n  background: none;\n  display: block;\n  margin: 20px auto;\n  text-align: center;\n  border: 2px solid #5AF8FF; \n  padding: 14px 10px;\n  width: 200px;\n  outline: none;\n  color: white;\n  border-radius: 24px;\n  transition: 0.25s;\n\n}\n.box input[type = \"text\"]:focus,.box input[type = \"password\"]:focus{\n  width: 280px;\n  border-color: #FFD700;\n}\n.box input[type =\"submit\"]{\n  border: 0;\n  background: none;\n  display: block;\n  margin: 20px auto;\n  text-align: center;\n  border: 2px solid #FFD700; \n  padding: 14px 40px;\n  outline: none;\n  color: white;\n  border-radius: 24px;\n  transition: 0.25s;\n  cursor: pointer;\n}\n.box input[type =\"submit\"]{\n\n}\nfrom a{\n  text-decoration: none;\n  font-size: 18px;\n  color: #5AF8FF;\n}\n\n  " }} />
+  <from className="box" action="index.html" method="post">
+    <h1><center>Welcomes You<center /></center></h1>
+    <br />
+    <p style={{"color":"white"}}><mark>~~Happy Shopping~~</mark></p>
+    <input type="text" name placeholder="Continue with us" />
+    <p>
+      <a href="a2.html">Register /</a><a href="a2.html"> Login</a>
+    </p>
+    <textarea rows={2} cols={40} name="usrtxt" wrap="hard" defaultValue={"New User - Register\nAlready have an account? - Login\n"} />
+  </from></div>             
+  
+</div>
+            
+ );
+        
+}
+}
+export default Home;
