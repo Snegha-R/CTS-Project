@@ -1,0 +1,131 @@
+import Home from './home';
+
+import './App.css';
+
+function App() {
+  return <Home />;
+  
+}
+
+export default App;
+---------appp
+
+
+
+
+import React from 'react';
+class Home extends React.Component{
+    render(){
+        return(
+            <div>
+            <h1>React Example</h1>
+        </div>
+
+        );
+        
+    }
+}
+export default Home;
+
+-----------home
+
+
+
+
+import React from 'react';
+class Home extends React.Component{
+    render(){
+        return(
+            <div>
+            <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Home</a>
+  <a href="#">SignIn/SignUp</a>
+  <a href="#">Sarees</a>
+  <a href="#">Menswear</a>
+  <a href="#">Womenswear</a>
+  <a href="#">Personalized Wear</a>
+  
+</div>
+ 
+<h1 style="color:white;background-color:black;font-size:40px;">TIPTOP TRENDZ</h1>
+<span style="font-size:50px;cursor:pointer;color:white" onclick="openNav()">&#9776;</span>
+ 
+<div class="slideshow-container">
+ 
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="https://i.pinimg.com/originals/9e/c5/cd/9ec5cdfe4d18f004394209d1fb0ddebb.jpg" style="width:100%"/>
+  <div class="text">New Arrivals</div>
+</div>
+ 
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="https://image.etashee.com/images/category/men/men-banner-m.jpg" style="width:100%"/>
+  <div class="text">Mens wears</div>
+</div>
+ 
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="https://static.wixstatic.com/media/fa8516_64f5ff12517149d7930168070a8479e8~mv2.jpg" style="width:100%"/>
+  <div class="text">Kurti upto 50%off</div>
+</div>
+ 
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+ 
+</div>
+<br/>
+ 
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+ 
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+ 
+var slideIndex = 1;
+showSlides(slideIndex);
+ 
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+ 
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+ 
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length ; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+        </div>
+
+        );
+        
+    }
+}
+export default Home;
+
+
+
+--------------home.js

@@ -1,0 +1,28 @@
+download visual studio code...in command prompt run command and follow instruction based on given youtube video....until general react structure came(home.js) -- add inbetween <div> </div> tag mentioned in general structure
+
+
+           --------html compiler--------------
+
+https://onecompiler.com/html/3y7z5d5r7 
+
+https://www.tutorialspoint.com/online_html_editor.php
+
+
+        -------------html to jsx-------------
+https://transform.tools/html-to-jsx
+
+
+----------------1compiler----------
+https://onecompiler.com/javascript/3y7z7a55b
+
+
+---------youtube------------
+https://youtu.be/oQXsSpuXUl4
+
+------------github-----------------
+https://github.com/Ankit8969/React-shoping-cart/blob/main/src/index.js
+
+
+--------------html to js used compiler-------------
+https://htmltojsx.in/
+
